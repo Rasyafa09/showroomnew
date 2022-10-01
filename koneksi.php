@@ -2,7 +2,7 @@
     $host = "localhost";
     $user = "root";
     $password = "";
-    $database = "db_showroom";
+    $database = "db_gambar";
     
-    $connect = mysqli_connect($host, $user, $password, $database) or die("Gagal Menghubungkan")
+    $conn = mysqli_connect($host, $user, $password, $database) or die("Gagal Menghubungkan")
 ?>      
